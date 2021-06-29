@@ -28,6 +28,11 @@ class MainViewModelTest {
         Assert.assertEquals(false, checker.isPalindrome("India"))
     }
 
+    @Test
+    fun `check a empty string`() {
+        Assert.assertEquals(false, !checker.isPalindrome(""))
+    }
+
     /*  @Test
     fun `check null input for palindrome`() {
         val checker = PalindromeChecker

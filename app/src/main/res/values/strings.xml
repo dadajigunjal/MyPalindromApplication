@@ -5,5 +5,7 @@
     <string name="palindrome_string">Palindrome Status</string>
 
     <string name="error_enter_input">Please enter your input</string>
-<!--    <string name="palindrome_string">Palindrome Status</string>-->
+    <string name="input_is_palindrom">The input string is palindrome..!</string>
+    <string name="input_is_not_palindrom">The input string is not palindrome..!</string>
+    <!--    <string name="palindrome_string">Palindrome Status</string>-->
 </resources>

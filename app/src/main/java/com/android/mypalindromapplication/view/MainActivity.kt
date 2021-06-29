@@ -1,8 +1,8 @@
 package com.android.mypalindromapplication.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil.*
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
             PalindromeChecker.hideKeyboard(this, bindingMainActivity.buttonCheckPalindrome)
 
             if (userInputString.trim().isNotEmpty()) {
-                viewModel.checkPalindromeString(userInputString)
+                viewModel.checkPalindromeString(this,userInputString)
             }else{
                 bindingMainActivity.textViewPalindrome.text = applicationContext.getString(R.string.palindrome_string)
                 bindingMainActivity.editTextPalindrome.error = applicationContext.getString(R.string.error_enter_input)
