@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyPalindromApplication</string>
+    <string name="enter_string_to_check_palindrome">Enter String to check palindrome</string>
+    <string name="check_palindrome">Check Palindrome</string>
+    <string name="palindrome_string">Palindrome Status</string>
+
+    <string name="error_enter_input">Please enter your input</string>
+<!--    <string name="palindrome_string">Palindrome Status</string>-->
+</resources>
