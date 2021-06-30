@@ -33,13 +33,4 @@ class MainViewModelTest {
         Assert.assertEquals(false, !checker.isPalindrome(""))
     }
 
-    /*  @Test
-    fun `check null input for palindrome`() {
-        val checker = PalindromeChecker
-        val exception = assertThrows<IllegalArgumentException> {
-            checker.isPalindrome(null.toString())
-        }
-        assertEquals("must be supplied a valid input string", exception.message)
-    }*/
-
 }

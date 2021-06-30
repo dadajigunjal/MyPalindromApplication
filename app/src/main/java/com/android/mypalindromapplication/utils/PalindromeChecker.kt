@@ -22,6 +22,6 @@ object PalindromeChecker {
 
     fun hideKeyboard(context : Activity, view: View) {
         val imm: InputMethodManager = context.getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
-        imm.hideSoftInputFromWindow(view.getWindowToken(), 0)
+        imm.hideSoftInputFromWindow(view.windowToken, 0)
     }
 }
